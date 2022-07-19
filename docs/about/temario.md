@@ -2,9 +2,7 @@
 title: Temario
 ---
 
-[Index](index) > ```{{page.title}}```
-
-# {{page.title}}
+# Temario
 
 - Introducción a la Programación Competitiva (2 semanas)
     - Introducción a C++ para programación competitiva
@@ -35,4 +33,3 @@ title: Temario
     - Integración numérica
     - Teorema del resto chino
 
-[Index](index) > ```{{page.title}}```
