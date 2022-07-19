@@ -777,7 +777,7 @@
       
         <li class="md-nav__item">
   <a href="#instalando-c" class="md-nav__link">
-    Instalando C++:
+    Instalando C++
   </a>
   
 </li>
@@ -856,16 +856,24 @@
 <a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
 <a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="p">}</span><span class="w"></span>
 </code></pre></div>
-<h2 id="instalando-c">Instalando C++:</h2>
+<h2 id="instalando-c">Instalando C++</h2>
 <ul>
 <li>Windows:<ul>
-<li><a href="https://code.visualstudio.com/docs/cpp/config-mingw">Using GCC with MinGW</a></li>
+<li><a href="https://code.visualstudio.com/docs/cpp/config-mingw">Usando GCC con MinGW</a></li>
 <li><a href="https://www.msys2.org/">MSYS2</a></li>
 </ul>
 </li>
-<li>Ubuntu:<ul>
-<li>Instalar <code>sudo apt-get install g++</code></li>
-<li><a href="http://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs">Compilar en Ubuntu</a></li>
+<li>Linux:<ul>
+<li>Debian o Ubuntu (apt)
+    <div class="highlight"><span class="filename">Usar el comando</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>    sudo apt-get install g++
+</code></pre></div></li>
+<li>Arch Linux (pacman)
+    <div class="highlight"><span class="filename">Usar el comando</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>    sudo pacman -S g++
+</code></pre></div></li>
+<li>CentOS, Fedora, o RHEL (yum)
+    <div class="highlight"><span class="filename">Usar el comando</span><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>    sudo yum install gcc-c++
+</code></pre></div>
+<a href="http://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs">Compilar con g++</a></li>
 </ul>
 </li>
 <li>Mac:<ul>
@@ -875,26 +883,40 @@
 </li>
 </ul>
 <h2 id="compilando-y-ejecutando-codigo-en-c">Compilando y ejecutando código en C++:</h2>
-<p>Ejemplo de secuencia de pasos para resolver un problema en C++ en Windows usando la terminal (en Linux/Mac es bien parecido):
-- Crear un archivo example.cpp
-- Escribir un código de C++ válido y guardar.
-- Abrir una terminal y navegar a la carpeta donde está el archivo.
-- Opción 1:
-    - En la terminal, compilar y ejecutar con el comando: <code>g++ -std=c++11 example.cpp &amp;&amp; a.exe</code>
-    - Escribir el input directamente en la terminal
-    - El output irá apareciendo poco a poco en la terminal (intercalado con el input)
-- Opción 2:    <br />
-    - Crear un archivo en la carpeta donde están parados llamado input.txt, copiar y pegar el input ahí y guardar.
-    - En la terminal, compilar y ejecutar con el comando: <code>g++ -std=c++11 example.cpp &amp;&amp; a.exe &lt; input.txt</code>
-    - el output aparecerá en la misma terminal
-- Opción 3:
-    - Crear un archivo en la carpeta donde están parados llamado input.txt, copiar y pegar el input ahí y guardar.
-    - En la terminal, compilar y ejecutar con el comando: <code>g++ -std=c++11 example.cpp &amp;&amp; a.exe &lt; input.txt &gt; output.txt</code>
-    - el output quedará guardado en el archivo output.txt</p>
+<p>Ejemplo de secuencia de pasos para resolver un problema en C++ en Windows usando la terminal (en Linux/Mac es bien parecido):</p>
+<ul>
+<li>Crear un archivo <code>example.cpp</code></li>
+<li>Escribir un código de C++ válido y guardar.</li>
+<li>Abrir una terminal y navegar a la carpeta donde está el archivo.</li>
+<li>Opción 1:<ul>
+<li>En la terminal, compilar y ejecutar con el comando: 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>    g++ -std<span class="o">=</span>c++11 example.cpp <span class="o">&amp;&amp;</span> a.exe
+</code></pre></div></li>
+<li>Escribir el input directamente en la terminal</li>
+<li>El output irá apareciendo poco a poco en la terminal (intercalado con el input)</li>
+</ul>
+</li>
+<li>Opción 2:<ul>
+<li>Crear un archivo en la carpeta donde están parados llamado input.txt, copiar y pegar el input ahí y guardar.</li>
+<li>En la terminal, compilar y ejecutar con el comando: 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>    g++ -std<span class="o">=</span>c++11 example.cpp <span class="o">&amp;&amp;</span> a.exe &lt; input.txt
+</code></pre></div></li>
+<li>el output aparecerá en la misma terminal</li>
+</ul>
+</li>
+<li>Opción 3:<ul>
+<li>Crear un archivo en la carpeta donde están parados llamado input.txt, copiar y pegar el input ahí y guardar.</li>
+<li>En la terminal, compilar y ejecutar con el comando: 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>    g++ -std<span class="o">=</span>c++11 example.cpp <span class="o">&amp;&amp;</span> a.exe &lt; input.txt &gt; output.txt
+</code></pre></div></li>
+<li>el output quedará guardado en el archivo <code>output.txt</code>.</li>
+</ul>
+</li>
+</ul>
 <h2 id="tutoriales-para-aprender-c">Tutoriales para aprender C++</h2>
 <ul>
-<li>(youtube) <a href="https://youtu.be/zTUJFG34Tyw">Intro a la Programación Competitiva en C++</a> <strong>(\&lt;\&lt;\&lt;\&lt; video cortito, recomendado)</strong></li>
-<li><a href="https://runestone.academy/runestone/books/published/cpp4python/index.html">C++ for Python Programmers</a> <strong>(\&lt;\&lt;\&lt;\&lt; por si vienes de Python)</strong></li>
+<li>(youtube) <a href="https://youtu.be/zTUJFG34Tyw">Intro a la Programación Competitiva en C++</a> <strong>(&lt;&lt;&lt;&lt; video cortito, recomendado)</strong></li>
+<li><a href="https://runestone.academy/runestone/books/published/cpp4python/index.html">C++ for Python Programmers</a> <strong>(&lt;&lt;&lt;&lt; por si vienes de Python)</strong></li>
 <li><a href="https://www.sololearn.com/Course/CPlusPlus/">C++ Tutorial (SOLO LEARN: EVERYONE CAN CODE)</a></li>
 <li><a href="http://www.cplusplus.com/doc/tutorial/">http://www.cplusplus.com/doc/tutorial/</a></li>
 <li><a href="https://www.hackerrank.com/domains/cpp">https://www.hackerrank.com/domains/cpp</a></li>
@@ -920,7 +942,7 @@
 <li>
 <p>Los beneficios de usar <strong>references</strong> (&amp;) y <strong>pointers</strong> (*) (<strong>para no copiar todo por valor y así ser más eficientes</strong>):</p>
 <ul>
-<li><a href="http://www.ntu.edu.sg/home/ehchua/programming/cpp/cp4_pointerreference.html">Diferencia entre references y pointers explicada</a> <strong>(\&lt;\&lt;\&lt;\&lt; muy buen artículo, 100% recomendado)</strong></li>
+<li><a href="http://www.ntu.edu.sg/home/ehchua/programming/cpp/cp4_pointerreference.html">Diferencia entre references y pointers explicada</a> <strong>(&lt;&lt;&lt;&lt; muy buen artículo, 100% recomendado)</strong></li>
 <li><a href="https://www.geeksforgeeks.org/passing-vector-function-cpp/">geeksforgeeks - Passing vector to a function in C++</a></li>
 <li><a href="https://www.geeksforgeeks.org/when-do-we-pass-arguments-by-reference-or-pointer/">geeksforgeeks - When do we pass arguments by reference or pointer?</a>   </li>
 </ul>
