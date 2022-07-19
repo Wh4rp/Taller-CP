@@ -1,4 +1,5 @@
 site_name: Taller de Programación Avanzada IIC2552-2022-1
+repo_url: https://github.com/Wh4rp/Taller-CP
 nav:
   - Home: index.md
   - Información del Curso:
