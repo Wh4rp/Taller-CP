@@ -39,38 +39,59 @@ int main() {
 }
 ```
 
-## Instalando C++:
+## Instalando C++
 - Windows:
-	- [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
+	- [Usando GCC con MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 	- [MSYS2](https://www.msys2.org/)
-- Ubuntu:
-	- Instalar ```sudo apt-get install g++```
-	- [Compilar en Ubuntu](http://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs)
+- Linux:
+	- Debian o Ubuntu (apt)
+		```bash title="Usar el comando"
+			sudo apt-get install g++
+		```
+	- Arch Linux (pacman)
+		```bash title="Usar el comando"
+			sudo pacman -S g++
+		```
+	- CentOS, Fedora, o RHEL (yum)
+		```bash title="Usar el comando"
+			sudo yum install gcc-c++
+		```
+	[Compilar con g++](http://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs)
 - Mac:
 	- [Installer en OSX](cpp_osx)
 	- [Compilar con CLang](http://stackoverflow.com/questions/9148488/how-do-i-compile-c-with-clang)
 
 ## Compilando y ejecutando código en C++:
 Ejemplo de secuencia de pasos para resolver un problema en C++ en Windows usando la terminal (en Linux/Mac es bien parecido):
-- Crear un archivo example.cpp
+
+- Crear un archivo `example.cpp`
 - Escribir un código de C++ válido y guardar.
 - Abrir una terminal y navegar a la carpeta donde está el archivo.
 - Opción 1:
-	- En la terminal, compilar y ejecutar con el comando: ```g++ -std=c++11 example.cpp && a.exe```
+	- En la terminal, compilar y ejecutar con el comando: 
+	```bash
+		g++ -std=c++11 example.cpp && a.exe
+	```
 	- Escribir el input directamente en la terminal
 	- El output irá apareciendo poco a poco en la terminal (intercalado con el input)
-- Opción 2:      
+- Opción 2:
 	- Crear un archivo en la carpeta donde están parados llamado input.txt, copiar y pegar el input ahí y guardar.
-	- En la terminal, compilar y ejecutar con el comando: ```g++ -std=c++11 example.cpp && a.exe < input.txt```
+	- En la terminal, compilar y ejecutar con el comando: 
+	```bash
+		g++ -std=c++11 example.cpp && a.exe < input.txt
+	```
 	- el output aparecerá en la misma terminal
 - Opción 3:
 	- Crear un archivo en la carpeta donde están parados llamado input.txt, copiar y pegar el input ahí y guardar.
-	- En la terminal, compilar y ejecutar con el comando: ```g++ -std=c++11 example.cpp && a.exe < input.txt > output.txt```
-	- el output quedará guardado en el archivo output.txt
+	- En la terminal, compilar y ejecutar con el comando: 
+	```bash
+		g++ -std=c++11 example.cpp && a.exe < input.txt > output.txt
+	```
+	- el output quedará guardado en el archivo `output.txt`.
 
 ## Tutoriales para aprender C++
-- (youtube) [Intro a la Programación Competitiva en C++](https://youtu.be/zTUJFG34Tyw) **(\<\<\<\< video cortito, recomendado)**
-- [C++ for Python Programmers](https://runestone.academy/runestone/books/published/cpp4python/index.html) **(\<\<\<\< por si vienes de Python)**
+- (youtube) [Intro a la Programación Competitiva en C++](https://youtu.be/zTUJFG34Tyw) **(<<<< video cortito, recomendado)**
+- [C++ for Python Programmers](https://runestone.academy/runestone/books/published/cpp4python/index.html) **(<<<< por si vienes de Python)**
 - [C++ Tutorial (SOLO LEARN: EVERYONE CAN CODE)](https://www.sololearn.com/Course/CPlusPlus/)
 - <http://www.cplusplus.com/doc/tutorial/>
 - <https://www.hackerrank.com/domains/cpp>
@@ -89,7 +110,7 @@ Ejemplo de secuencia de pasos para resolver un problema en C++ en Windows usando
 	- [Learn C++ 11 in 20 Minutes - Part I](https://youtu.be/U6mgsPqV32A)
 	- [Learn C++ 11 in 20 Minutes - Part II](https://youtu.be/Lt0ASrloGSE)
 - Los beneficios de usar **references** (&) y **pointers** (\*) (**para no copiar todo por valor y así ser más eficientes**):
-	 - [Diferencia entre references y pointers explicada](http://www.ntu.edu.sg/home/ehchua/programming/cpp/cp4_pointerreference.html) **(\<\<\<\< muy buen artículo, 100% recomendado)**
+	 - [Diferencia entre references y pointers explicada](http://www.ntu.edu.sg/home/ehchua/programming/cpp/cp4_pointerreference.html) **(<<<< muy buen artículo, 100% recomendado)**
 	 - [geeksforgeeks - Passing vector to a function in C++](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
 	 - [geeksforgeeks - When do we pass arguments by reference or pointer?](https://www.geeksforgeeks.org/when-do-we-pass-arguments-by-reference-or-pointer/)   
 

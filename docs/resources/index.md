@@ -2,7 +2,7 @@
 title: Recursos
 ---
 
-## [Para aprender C++](cpp) (\<\<\<\<\<\< OJO, NOVAT@S)
+## [Para aprender C++](cpp) (<<<<<< OJO, NOVAT@S)
 
 ## Recursos para temas específicos
 
@@ -31,9 +31,9 @@ title: Recursos
   - [Agustín Santiago Gutiérrez [elsantodel90]](https://www.youtube.com/channel/UCqF1Y3wsJc-JhE9EusFyCHA)
   - [Programación Competitiva CL](https://www.youtube.com/channel/UCmVg7YyMS8H-65WCmkVHB9g/feed)
 - Repositorios con muchos códigos de ejemplo (implementaciones de algoritmos y estructuras de datos típicos):
-  - [Apuntes USACO](https://github.com/bqi343/USACO) **\<\<\<\<\<\<\< BRUTAL, ESTOS APUNTES SON DEMASIADO BUENOS**
+  - [Apuntes USACO](https://github.com/bqi343/USACO) **<<<<<<< BRUTAL, ESTOS APUNTES SON DEMASIADO BUENOS**
   - [Apuntes Benjamin Rubio (ex seleccionado PUC)](https://github.com/BenjaminRubio/CompetitiveProgramming)
-  - [ICPC Team Notebook. Team "UNC - Gracias Demetrio"](https://github.com/mhunicken/icpc-team-notebook-el-vasito/tree/master) **\<\<\<\<\<\<\< MUY BUENOS TAMBIÉN**
+  - [ICPC Team Notebook. Team "UNC - Gracias Demetrio"](https://github.com/mhunicken/icpc-team-notebook-el-vasito/tree/master) **<<<<<<< MUY BUENOS TAMBIÉN**
   - [Apuntes ICPC Universidad de Chile (C++)](https://docs.google.com/document/d/1rcex_saP4tExbbU62qGUjR3eenxOh-50i9Y45WtHkc4/edit)
   - <https://github.com/kth-competitive-programming/kactl>
   - [Apuntes ICPC de Robinson Castro et al (C++)](https://docs.google.com/document/d/1pan53PU9_PIrPPVyNrbfXIAU-B6YnIaSBcB9lP9j0jE/edit)
@@ -43,7 +43,7 @@ title: Recursos
   - [Repo de Apuntes del team Caloventor en Dos (C++)](https://github.com/mvpossum/eldiego)
   - [Repo de Apuntes de Pablo Messina (C++)](https://github.com/PabloMessina/Competitive-Programming-Material)
 - Otras páginas con links a muchos recursos y material de estudio:
-  - [CP-ALGORITHMS](https://cp-algorithms.com/) **\<\<\<\<\<\< EXCELENTE PÁGINA, MEGA RECOMENDADA**
+  - [CP-ALGORITHMS](https://cp-algorithms.com/) **<<<<<< EXCELENTE PÁGINA, MEGA RECOMENDADA**
   - [Codeforces: An awesome list for competitive programming!](https://codeforces.com/blog/entry/23054)
     - [All of the good tutorials found on codeforces](https://codeforces.com/blog/entry/57282)
   - [Standford CS 97SI: Introduction to Programming Contests](http://web.stanford.edu/class/cs97si/)
